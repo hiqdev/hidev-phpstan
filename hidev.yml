@@ -1,0 +1,17 @@
+package:
+    type:           yii2-extension
+    name:           hidev-phpstan
+    title:          HiDev plugin for PHPStan
+    headline:       HiDev PHPStan
+    keywords:       phpstan, hidev, plugin
+    description:    |
+        [HiDev] is the automation tool mixed with code generator for easier continuous development.
+
+        This plugin enables [PHPStan] support for HiDev.
+
+        Provides usual PHPStan operations:
+
+        - running checks
+
+        [hidev]:    https://github.com/hiqdev/hidev
+        [phpstan]:  https://phpstan.org/

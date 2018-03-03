@@ -1,0 +1,75 @@
+{
+    "name": "hiqdev/hidev-phpstan",
+    "type": "yii2-extension",
+    "description": "HiDev plugin for PHPStan",
+    "keywords": [
+        "phpstan",
+        "hidev",
+        "plugin"
+    ],
+    "homepage": "https://github.com/hiqdev/hidev-phpstan",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/hidev-phpstan",
+        "issues": "https://github.com/hiqdev/hidev-phpstan/issues",
+        "wiki": "https://github.com/hiqdev/hidev-phpstan/wiki",
+        "forum": "http://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "d.naumenko.a@gmail.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "andreyklochok@gmail.com",
+            "homepage": "http://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@gmail.com",
+            "homepage": "http://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "hiqdev/composer-config-plugin": "*@dev"
+    },
+    "require-dev": {
+        "hiqdev/hidev": "dev-master",
+        "hiqdev/hidev-php": "dev-master",
+        "hiqdev/hidev-hiqdev": "dev-master",
+        "hiqdev/hidev-readme": "dev-master",
+        "hiqdev/hidev-travis": "dev-master",
+        "hiqdev/hidev-license": "dev-master",
+        "hiqdev/hidev-composer": "dev-master",
+        "hiqdev/hidev-scrutinizer": "dev-master",
+        "hiqdev/hidev-php-cs-fixer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "hidev\\phpstan\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "hidev": "src/config/hidev.php"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
