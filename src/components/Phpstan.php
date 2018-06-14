@@ -15,7 +15,28 @@ namespace hidev\phpstan\components;
  */
 class Phpstan extends \hidev\base\Component
 {
+    public $command = 'analyze';
+
+    public $colors = true;
+
+    public $level = 1;
+
+    public $dirs = ['src'];
+
     protected $_version;
+
+    public function prepareArgs($args = [])
+    {
+        $args[] = $this->command;
+        $args[] = '--level';
+        $args[] = $this->level;
+
+        if ($this->colors) {
+            $args[] = '--ansi';
+        }
+
+        return array_merge($args, $this->dirs);
+    }
 
     public function getVersion()
     {

@@ -15,8 +15,6 @@ namespace hidev\phpstan\console;
  */
 class PhpstanController extends \hidev\base\Controller
 {
-    public $level = 1;
-
     public function getComponent()
     {
         return $this->take('phpstan');
@@ -32,6 +30,6 @@ class PhpstanController extends \hidev\base\Controller
 
     protected function doRun()
     {
-        return $this->passthru('phpstan', ['analyze', '--level', $this->level, 'src']);
+        return $this->passthru('phpstan', $this->getComponent()->prepareArgs());
     }
 }
