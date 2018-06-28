@@ -28,8 +28,8 @@ return [
         'binaries' => [
             'phpstan' => [
                 'package'  => 'phpstan/phpstan',
-                'version'  => '^4.8',
-                'download' => 'https://phar.phpstan.de/phpstan-old.phar',
+                'version'  => '^0.10',
+                'download' => 'https://github.com/phpstan/phpstan/releases/download/0.10/phpstan.phar',
             ],
         ],
     ],
