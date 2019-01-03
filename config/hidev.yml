@@ -1,0 +1,18 @@
+app:
+    controllerMap:
+        phpstan:
+            __class: hidev\phpstan\console\PhpstanController
+
+phpstan:
+    __class: hidev\phpstan\components\Phpstan
+
+theme:
+    pathMap:
+        '@hidev/views':
+            - '@hidev/phpstan/views'
+
+binaries:
+    phpstan:
+        package:    phpstan/phpstan
+        version:    '^0.10'
+        download:   https://github.com/phpstan/phpstan/releases/download/0.10/phpstan.phar
