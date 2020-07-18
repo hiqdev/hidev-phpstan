@@ -5,7 +5,7 @@
  * @link      https://github.com/hiqdev/hidev-phpstan
  * @package   hidev-phpstan
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2018, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2018-2020, HiQDev (http://hiqdev.com/)
  */
 
 namespace hidev\phpstan\tests\stan\console;
