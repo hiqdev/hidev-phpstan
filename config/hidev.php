@@ -5,7 +5,7 @@
  * @link      https://github.com/hiqdev/hidev-phpstan
  * @package   hidev-phpstan
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2018, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2018-2020, HiQDev (http://hiqdev.com/)
  */
 
 return [
@@ -29,7 +29,7 @@ return [
             'phpstan' => [
                 'package'  => 'phpstan/phpstan',
                 'version'  => '^0.10',
-                'download' => 'https://github.com/phpstan/phpstan/releases/download/0.10/phpstan.phar',
+                'download' => 'https://github.com/phpstan/phpstan/releases/download/0.12.32/phpstan.phar',
             ],
         ],
     ],
