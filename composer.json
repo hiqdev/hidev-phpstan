@@ -42,9 +42,6 @@
             "homepage": "http://hiqdev.com/"
         }
     ],
-    "require": {
-        "yiisoft/composer-config-plugin": "*@dev"
-    },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
         "hiqdev/hidev-php": "dev-master",
